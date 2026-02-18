@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+/* Page er prothom heading majhe */
+.page-title {
+  text-align: center;
+  margin: 25px 0 10px;
+}
+
+/* Protita section center e */
+.section {
+  width: 95%;
+  max-width: 1100px;
+  margin: 25px auto;
+}
+
+.section-title {
+  text-align: center;
+  margin: 10px 0 18px;
+}
+
+/* 3 ta product pasapasi */
+.products-row {
+  text-align: center; /* inline-block center e thake */
+}
+
+/* Card design */
+.product-card {
+  display: inline-block;
+  width: 280px;
+  vertical-align: top;
+
+  background: #f7f7f7;
+  border: 1px solid #d7d7d7;
+  border-radius: 12px;
+
+  padding: 16px;
+  margin: 10px;
+
+  text-align: center;
+}
+
+/* Hover effect */
+.product-card:hover {
+  outline: 2px solid #333;
+  outline-offset: 6px;
+}
+
+/* Product image */
+.product-card img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  margin: 8px 0;
+}
+
+.desc {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 8px 0 12px;
+}
+
+.price {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.buy a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+.buy a:hover {
+  text-decoration: underline;
+}

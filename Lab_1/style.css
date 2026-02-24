@@ -1,14 +1,14 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
+  margin: 0; /* margin means element er bahir space toiri kore */
   padding: 0;
-  background: #ffffff;
+  background: white;
 }
 
 /* Page er prothom heading majhe */
 .page-title {
   text-align: center;
-  margin: 25px 0 10px;
+  margin: 25px 0 10px; /*top 25px, right 0, bottom 10px, left 0 */
 }
 
 /* Protita section center e */
@@ -30,7 +30,7 @@ body {
 
 /* Card design */
 .product-card {
-  display: inline-block;
+  display: inline-block;/* inline mane joto tuko contant lage tototuko space nibe */
   width: 280px;
   vertical-align: top;
 
@@ -45,7 +45,7 @@ body {
 }
 
 /* Hover effect */
-.product-card:hover {
+.product-card:hover { /* mouse pointer er upore gele effect dekhabe */
   outline: 2px solid #333;
   outline-offset: 6px;
 }

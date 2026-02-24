@@ -29,7 +29,7 @@ body {
 }
 
 /* Card design */
-.product-card {
+.product-card { /* eikahne box design kora hoyese */
   display: inline-block;/* inline mane joto tuko contant lage tototuko space nibe */
   width: 280px;
   vertical-align: top;
@@ -51,7 +51,7 @@ body {
 }
 
 /* Product image */
-.product-card img {
+.product-card img { /* imaage er picone white box dekhabe */
   width: 140px;
   height: 140px;
   object-fit: cover;

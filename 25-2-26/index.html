@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <script src="script.js"></script>
+  </head>
+  <script>
+        document.write("<h1>Student Login Form</h1>");
+  </script>
+
+    <body>
+     <form onsubmit="return addData();">
+      <table>
+        <tr>
+          <td>Student Email</td>
+          <td>
+            <input
+              type="text"
+              placeholder="Enter your Name"
+              id="Name"
+              name="name"
+              onchange="showName(this.value)" 
+            />
+          </td>
+          <td>
+            <p id="nameErr" style="color: yellowgreen"></p>
+          </td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td>
+            <input
+              type="password"
+              placeholder="Enter your ID"
+              id="password"
+            
+            />
+          </td>
+          <td>
+            </td>
+          <td>
+            <p id="passwordErr" style="color: yellowgreen"></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button type="submit" style="color: darkgreen;">Login</button>
+          </td>
+        </tr>
+      </table>
+    </body>
+    <script>
+      const a = 0.5;
+      const b = 0.2;
+      document.write("Sum is", a + b);
+      console.log("Sum is", a + b);
+    </script>

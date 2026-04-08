@@ -18,6 +18,8 @@ function ValidateForm() {
 
         if (!password.includes("#")){
             errormessege +="password must include #<br>";
+            document.getElementById("error").style.color = "red";
+            
         }
         if(errormessege !=""){
             count++;
